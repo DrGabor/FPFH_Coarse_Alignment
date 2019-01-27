@@ -10,7 +10,7 @@ To run the program, change the input file names in the reLocalizer.cpp, and the 
 
 To visualize the results properly, the matlab file Untitled11.m is provided. 
 
-It should be noted that this project is similar with the project of LiDAR/RoPSMatcher, where RoPSMatcher uses RoPS descriptor instead of FPFH descriptor, and the transformation calculators are different. I am not sure which one is better in the general sense, thus both of them are recommanded. 
+It should be noted that this project is similar with the project of LiDAR/RoPSMatcher, where RoPSMatcher uses RoPS descriptor instead of FPFH descriptor, and the transformation estimators are different. I am not sure which one is better in the general sense, thus both of them are recommanded. 
 
 
 [1] Holz, Dirk, et al. "Registration with the point cloud library: A modular framework for aligning in 3-D." IEEE Robotics & Automation Magazine 22.4 (2015): 110-124.
