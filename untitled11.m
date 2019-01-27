@@ -1,4 +1,4 @@
-clc; close all; 
+clc; close all; clear all;  
 DataRoot = 'C:\Users\lucaswang\Documents\Visual Studio 2015\Projects\reLocalizer\reLocalizer\output';
 DataDir = fullfile(DataRoot, 'cloud_mov.pcd'); 
 cloud_mov = pcread(DataDir); 
@@ -39,5 +39,5 @@ ylabel('Y/m');
 pcshow(cloud_ref.Location, 'g', 'markersize', 100); 
 pcshow(cloud_mov.Location, 'r', 'markersize', 100); 
 pcshow(aft', 'b', 'markersize', 100); 
-legend('Ref', 'Mov', 'Coarse Aligned');
+legend({'Ref', 'Mov', 'Coarse Aligned'}, 'FontSize', 12, 'Location', 'best');
 legend('boxoff'); 
