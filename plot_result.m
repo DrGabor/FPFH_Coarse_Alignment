@@ -1,5 +1,6 @@
 clc; close all; clear all;  
-DataRoot = 'C:\Users\lucaswang\Documents\Visual Studio 2015\Projects\reLocalizer\reLocalizer\output';
+%DataRoot = 'C:\Users\lucaswang\Documents\Visual Studio 2015\Projects\reLocalizer\reLocalizer\output';
+DataRoot = 'output';
 DataDir = fullfile(DataRoot, 'cloud_mov.pcd'); 
 cloud_mov = pcread(DataDir); 
 DataDir = fullfile(DataRoot, 'cloud_ref.pcd'); 
