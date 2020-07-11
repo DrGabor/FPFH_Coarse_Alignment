@@ -8,7 +8,7 @@ In this C++ program, the key points are detected randomly with a spatial resolut
 
 To run the program, change the input file names in the reLocalizer.cpp, and the resulting transformation is stored in coarse_results.txt. 
 
-To visualize the results properly, the matlab file Untitled11.m is provided. 
+To visualize the results properly, the matlab file plot_result.m is provided. 
 
 It should be noted that this project is similar with the project of LiDAR/RoPSMatcher, where RoPSMatcher uses RoPS descriptor instead of FPFH descriptor, and the transformation estimators are different. I am not sure which one is better in the general sense, thus both of them are recommanded. 
 
@@ -27,6 +27,8 @@ cmake ..
 make -j
 ./fpfh_coarse_alignment_test
 ```
+open Matlab
+run plot_result.m
 # result
 ![](./CoarseAlignResults.png "result")	
 --------------------------------
