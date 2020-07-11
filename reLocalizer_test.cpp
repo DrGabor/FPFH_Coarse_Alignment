@@ -4,7 +4,7 @@
  * @Author: Di Wang
  * @Date: 2020-07-11 16:37:12
  * @LastEditors: max.zhong
- * @LastEditTime: 2020-07-11 17:13:05
+ * @LastEditTime: 2020-07-11 17:23:38
  */
 
 #include "reLocalizer.h"
@@ -32,7 +32,7 @@ int main()
   MovFPFH.setInputCloud(cloud_mov);
   MovFPFH.compute();
 
-  string sFileName_ref = sDataRoot + "raw_000000.ply";
+  string sFileName_ref = sDataRoot + "raw_000005.ply";
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_ref(
       new pcl::PointCloud<pcl::PointXYZ>);
   plyReader.read(sFileName_ref, *cloud_ref);
