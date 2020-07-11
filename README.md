@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: max.zhong
+ * @Date: 2020-07-11 16:37:12
+ * @LastEditors: max.zhong
+ * @LastEditTime: 2020-07-11 17:14:39
+--> 
 # FPFH_Coarse_Align
 
 Since the widely used point set registration algorithms such as ICP or NDT need a moderate initial transformation guess, the coarse alignment stage is of prime importance for robotics-related applications, especially when no GPS/IMU information are provided. 
@@ -16,6 +24,17 @@ It should be noted that this project is similar with the project of LiDAR/RoPSMa
 [1] Holz, Dirk, et al. "Registration with the point cloud library: A modular framework for aligning in 3-D." IEEE Robotics & Automation Magazine 22.4 (2015): 110-124.
 
 [2] Rusu, Radu Bogdan, Nico Blodow, and Michael Beetz. "Fast point feature histograms (FPFH) for 3D registration." Robotics and Automation, 2009. ICRA'09. IEEE International Conference on. IEEE, 2009.
+
+# install
+
+if you use ubuntu, please do
+```
+git checkout feature/ubuntu
+mkdir build && cd build
+cmake ..
+make -j
+./fpfh_coarse_alignment_test
+```
 
 --------------------------------
 
