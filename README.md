@@ -1,11 +1,3 @@
-<!--
- * @Descripttion: 
- * @version: 
- * @Author: max.zhong
- * @Date: 2020-07-11 16:37:12
- * @LastEditors: max.zhong
- * @LastEditTime: 2020-07-11 17:14:39
---> 
 # FPFH_Coarse_Align
 
 Since the widely used point set registration algorithms such as ICP or NDT need a moderate initial transformation guess, the coarse alignment stage is of prime importance for robotics-related applications, especially when no GPS/IMU information are provided. 
@@ -35,7 +27,8 @@ cmake ..
 make -j
 ./fpfh_coarse_alignment_test
 ```
-
+# result
+![](./CoarseAlignResults.png "result")	
 --------------------------------
 
 If you have any problems, please feel free to contact me.
